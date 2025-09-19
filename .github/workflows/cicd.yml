@@ -1,8 +1,9 @@
 name: CI
 
-actions: read
-pull-requests: write
-security-events: write
+permissions:
+  actions: read
+  pull-requests: write
+  security-events: write
 
 on:
   push:
